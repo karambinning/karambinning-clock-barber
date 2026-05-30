@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clock Barber · Gaywood · King's Lynn · Traditional Barbershop</title>
+<meta name="description" content="Clock Barber — traditional barbershop on Lynn Road, Gaywood, King's Lynn. Cuts, beard trims, hot-towel head shaves. Walk-ins welcome. Open seven days.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-header__mark"><span class="dot"></span>Clock Barber · PE30</a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <a href="tel:+447743337397" class="site-header__phone">07743 337397</a>
+</header>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Walk-ins Welcome <em class="sep">·</em> 59A Lynn Road, Gaywood <em class="sep">·</em> Open until 7pm <em class="sep">·</em> Cuts · Beard Trims · Head Shaves <em class="sep">·</em> Established on the Lynn Road <em class="sep">·</em></span>
+    <span>Walk-ins Welcome <em class="sep">·</em> 59A Lynn Road, Gaywood <em class="sep">·</em> Open until 7pm <em class="sep">·</em> Cuts · Beard Trims · Head Shaves <em class="sep">·</em> Established on the Lynn Road <em class="sep">·</em></span>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="hero__copy">
+    <h1 class="hero__wordmark">
+      <span class="row">Clock</span>
+      <span class="row row--two">Barber</span>
+    </h1>
+    <div class="hero__sub">
+      <span>Gaywood</span><span class="dot"></span>
+      <span>King's Lynn</span><span class="dot"></span>
+      <span>PE30 4PR</span>
+    </div>
+    <p class="hero__lede">A proper sit-down at the chair. Sharp cuts, hot-towel beard work, and head shaves on the Lynn Road — seven days a week, the clock above the door says when.</p>
+    <div class="hero__actions">
+      <a class="btn" href="tel:+447743337397">Call 07743 337397</a>
+      <a class="btn btn--ghost" href="services.html">See the services</a>
+    </div>
+  </div>
+
+  <div class="hero__clock" aria-label="Clock face">
+    <svg viewBox="0 0 500 500" role="img" aria-hidden="true">
+      <circle class="clock-bezel" cx="250" cy="250" r="240" />
+      <circle class="clock-face"  cx="250" cy="250" r="222" />
+
+      <!-- minute marks -->
+      <g class="clock-marks">
+        <!-- 60 ticks generated explicitly · only majors drawn here for clarity, intermediates as minors -->
+        <line class="clock-mark" x1="250" y1="40"  x2="250" y2="60"/>
+        <line class="clock-mark" x1="460" y1="250" x2="440" y2="250"/>
+        <line class="clock-mark" x1="250" y1="460" x2="250" y2="440"/>
+        <line class="clock-mark" x1="40"  y1="250" x2="60"  y2="250"/>
+        <line class="clock-mark" transform="rotate(30 250 250)" x1="250" y1="40" x2="250" y2="60"/>
+        <line class="clock-mark" transform="rotate(60 250 250)" x1="250" y1="40" x2="250" y2="60"/>
+        <line class="clock-mark" transform="rotate(120 250 250)" x1="250" y1="40" x2="250" y2="60"/>
+        <line class="clock-mark" transform="rotate(150 250 250)" x1="250" y1="40" x2="250" y2="60"/>
+        <line class="clock-mark" transform="rotate(210 250 250)" x1="250" y1="40" x2="250" y2="60"/>
+        <line class="clock-mark" transform="rotate(240 250 250)" x1="250" y1="40" x2="250" y2="60"/>
+        <line class="clock-mark" transform="rotate(300 250 250)" x1="250" y1="40" x2="250" y2="60"/>
+        <line class="clock-mark" transform="rotate(330 250 250)" x1="250" y1="40" x2="250" y2="60"/>
+      </g>
+
+      <!-- numerals · 12, 3, 6, 9 only · roman, classic shop-clock style -->
+      <g class="clock-numerals">
+        <text class="clock-numeral" x="250" y="92">XII</text>
+        <text class="clock-numeral" x="408" y="250">III</text>
+        <text class="clock-numeral" x="250" y="408">VI</text>
+        <text class="clock-numeral" x="92"  y="250">IX</text>
+      </g>
+
+      <!-- hands · hour 10:10 -->
+      <line class="clock-hand clock-hand--hour"   x1="250" y1="250" x2="250" y2="140"
+            transform="rotate(305 250 250)" />
+      <line class="clock-hand clock-hand--minute" x1="250" y1="250" x2="250" y2="100"
+            transform="rotate(60  250 250)" />
+      <line class="clock-hand clock-hand--second" x1="250" y1="280" x2="250" y2="80" />
+      <circle class="clock-pin" cx="250" cy="250" r="10" />
+    </svg>
+  </div>
+</section>
+
+<section class="slab slab--deep reveal">
+  <span class="slab__eyebrow">In the chair</span>
+  <div class="two-col">
+    <div>
+      <h2>An honest cut on the Lynn Road.</h2>
+    </div>
+    <div class="two-col__body">
+      <p>Clock Barber is a traditional barbershop in Gaywood — a few doors up from the bus stop, opposite the green. We do the things barbers have always done: a proper haircut, a beard you can wear out the door, and a hot-towel head shave that takes its time.</p>
+      <p>No booking apps required. Walk in, take a seat, watch the clock tick — we'll get you sorted.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slab slab--ink reveal" id="services-preview">
+  <span class="slab__eyebrow">The work</span>
+  <h2>Cuts. Beards. Shaves.</h2>
+  <p class="slab__lead">We keep the menu short and the chairs full. Pricing is set at the chair so we can quote you for what you actually want — fade, scissor cut, beard reshape, or the full hot-towel.</p>
+
+  <ol class="services-list">
+    <li>
+      <span class="num">01</span>
+      <span class="name">Men's Haircut</span>
+      <span class="leader" aria-hidden="true"></span>
+      <span class="meta">Clipper, scissor, fades</span>
+    </li>
+    <li>
+      <span class="num">02</span>
+      <span class="name">Beard Trim</span>
+      <span class="leader" aria-hidden="true"></span>
+      <span class="meta">Shape, line-up, tidy</span>
+    </li>
+    <li>
+      <span class="num">03</span>
+      <span class="name">Head Shave</span>
+      <span class="leader" aria-hidden="true"></span>
+      <span class="meta">Hot towel finish</span>
+    </li>
+    <li>
+      <span class="num">04</span>
+      <span class="name">Hair &amp; Styling</span>
+      <span class="leader" aria-hidden="true"></span>
+      <span class="meta">All ages, kids too</span>
+    </li>
+  </ol>
+
+  <p style="margin-top:2.2rem"><a href="services.html" class="btn btn--ghost" style="color:var(--paper); border-color:var(--paper)">See the full list</a></p>
+</section>
+
+<section class="slab reveal" id="hours">
+  <span class="slab__eyebrow">When we're open</span>
+  <h2>Seven days. Walk-in.</h2>
+  <div class="hours" role="list" aria-label="Opening hours">
+    <div class="hours__day" role="listitem"><span class="d">Mon</span><span class="h">9 — 7</span></div>
+    <div class="hours__day" role="listitem"><span class="d">Tue</span><span class="h">9 — 7</span></div>
+    <div class="hours__day" role="listitem"><span class="d">Wed</span><span class="h">9 — 7</span></div>
+    <div class="hours__day" role="listitem"><span class="d">Thu</span><span class="h">9 — 7</span></div>
+    <div class="hours__day" role="listitem"><span class="d">Fri</span><span class="h">8 — 7:30</span></div>
+    <div class="hours__day" role="listitem"><span class="d">Sat</span><span class="h">8 — 7:30</span></div>
+    <div class="hours__day" role="listitem"><span class="d">Sun</span><span class="h">9:30 — 5</span></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="site-footer__grid">
+    <div class="site-footer__mark">Clock<br><span class="accent">Barber</span></div>
+    <div>
+      <h4>Find us</h4>
+      <p>59A Lynn Road<br>Gaywood, King's Lynn<br>Norfolk · PE30 4PR</p>
+      <p style="margin-top:1rem"><a href="https://maps.google.com/?q=59A+Lynn+Road+Gaywood+PE30+4PR" target="_blank" rel="noopener">Open in Google Maps →</a></p>
+    </div>
+    <div>
+      <h4>Walk in or ring</h4>
+      <p><a href="tel:+447743337397">07743 337397</a></p>
+      <p style="margin-top:1rem">Mon–Thu · 9 — 7<br>Fri &amp; Sat · 8 — 7:30<br>Sunday · 9:30 — 5</p>
+    </div>
+  </div>
+  <div class="site-footer__legal">
+    <span>© Clock Barber · Gaywood</span>
+    <span>A traditional barbershop · PE30</span>
+  </div>
+</footer>
+
+</body>
+</html>
